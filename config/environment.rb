@@ -3,3 +3,6 @@ require_relative 'application'
 
 # Initialize the Rails application.
 Rails.application.initialize!
+rails g serializer Bird
+rails g serializer Location
+rails g serializer Sighting
